@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    tools:context=".schedule">
+
+    <TextView
+        android:id="@+id/childNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:text="Child's Name"
+        android:layout_alignParentTop="true"/>
+
+    <ExpandableListView
+        android:id="@+id/expandableVaccineView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/childNameTextView"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:childDivider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:layoutDirection="ltr"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:cornerRadius="30dp"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

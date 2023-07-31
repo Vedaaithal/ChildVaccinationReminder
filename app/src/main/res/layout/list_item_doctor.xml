@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/doctorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Doctor's Name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/doctorQualificationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualification"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/doctorContactTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Info"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/doctorAddressTextView"
+        android:layout_width="wrap_content"
+        android:text="Address"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

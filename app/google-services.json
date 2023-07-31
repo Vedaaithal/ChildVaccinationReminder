@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267148503488",
+    "project_id": "child-vaccine-reminder",
+    "storage_bucket": "child-vaccine-reminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267148503488:android:4e8ce6848ff0820a3f8025",
+        "android_client_info": {
+          "package_name": "com.example.childvaccinereminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267148503488-s4dsphtm101qs8apbpqrotc8474g08k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIaGddl6XE19erULAD2CF6BtzKjb5q_Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267148503488-s4dsphtm101qs8apbpqrotc8474g08k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

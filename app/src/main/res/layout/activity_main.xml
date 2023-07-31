@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="100dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    android:layout_marginTop="50dp"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/background" />
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/row1"
+                        android:paddingTop="25dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/add_child"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:cardElevation="20dp"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/addChildName"
+                                    android:text="@string/add_child"
+                                    android:textSize="20sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@+id/addChildImage"/>
+
+                                <ImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:id="@+id/addChildImage"
+                                    android:src="@drawable/add_child"
+                                    android:layout_centerHorizontal="true"/>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/view_child"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            app:cardElevation="20dp"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/ViewChildName"
+                                    android:text="@string/view_child"
+                                    android:textSize="20sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@+id/ViewChildImage"/>
+
+                                <ImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:id="@+id/ViewChildImage"
+                                    android:src="@drawable/view_child"
+                                    android:layout_centerHorizontal="true"/>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/row2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/notify"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        app:cardElevation="20dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/notification"
+                                android:text="@string/reminder"
+                                android:textSize="20sp"
+                                android:layout_marginTop="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/notifyImage"/>
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:id="@+id/notifyImage"
+                                android:src="@drawable/notify"
+                                android:layout_centerHorizontal="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/Vaccine"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        app:cardElevation="20dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/vaccineName"
+                                android:text="Vaccines"
+                                android:textSize="20sp"
+                                android:layout_marginTop="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/vaccineImage"/>
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:id="@+id/vaccineImage"
+                                android:src="@drawable/vacc"
+                                android:layout_centerHorizontal="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/row3"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/doctor"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        app:cardElevation="20dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/doctorName"
+                                android:text="@string/doctor"
+                                android:textSize="20sp"
+                                android:layout_marginTop="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/doctorImage"/>
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:id="@+id/doctorImage"
+                                android:src="@drawable/doctor"
+                                android:layout_centerHorizontal="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/logout"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        app:cardElevation="20dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/logoutName"
+                                android:text="Logout"
+                                android:textSize="20sp"
+                                android:layout_marginTop="10dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@+id/logoutImage"/>
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:id="@+id/logoutImage"
+                                android:src="@drawable/logout"
+                                android:layout_centerHorizontal="true"/>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+</ScrollView>

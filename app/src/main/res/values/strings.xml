@@ -1,0 +1,125 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">default_channel_id</string>
+    <string name="app_name">Child Vaccine Reminder</string>
+
+    <string name="screen1">Add Child Details</string>
+    <string name="screen2">Get Child\'s Vaccine Schedule</string>
+    <string name="screen3">Notification And Reminder</string>
+
+
+    <string name="screen1desc">Enter name, date of birth and other details of the child.</string>
+    <string name="screen2desc">Vaccination Schedule approved by the govt with days and description.</string>
+    <string name="screen3desc">Get Notified about every upcoming notification and on track of keeping your child vaccinated.</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="already_registered_click_to_login">Already registered?Click to login.</string>
+    <string name="new_user_click_to_register">New user?Click to register.</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="schedule">Schedule</string>
+    <string name="name_of_baby">Name of baby</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="blood_group">Blood group</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="add_child">Add Child</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="action_logout">Logout</string>
+
+    <string-array name="vaccine_birth">
+        <item>Bacillus Calmette–Guérin (BCG)</item>
+        <item>Oral polio vaccine (OPV 0)</item>
+        <item>Hepatitis B (Hep – B1)</item>
+    </string-array>
+
+    <string-array name="vaccine_week_6">
+        <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 1)</item>
+        <item>Inactivated polio vaccine (IPV 1)</item>
+        <item>Hepatitis B  (Hep – B2)</item>
+        <item>Haemophilus influenzae type B (Hib 1)</item>
+        <item>Rotavirus 1</item>
+        <item>Pneumococcal conjugate vaccine (PCV 1)</item>
+    </string-array>
+
+    <string-array name="vaccine_week_10">
+        <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 2)</item>
+        <item>Inactivated polio vaccine (IPV 2)</item>
+        <item>Haemophilus influenzae type B (Hib 2)</item>
+        <item>Rotavirus 2</item>
+        <item>Pneumococcal conjugate vaccine (PCV 2)</item>
+    </string-array>
+
+    <string-array name="vaccine_week_14">
+        <item>Diptheria, Tetanus and Pertussis vaccine (DTwP 3)</item>
+        <item>Inactivated polio vaccine (IPV 3)</item>
+        <item>Haemophilus influenzae type B (Hib 3)</item>
+        <item>Rotavirus 3</item>
+        <item>Pneumococcal conjugate vaccine (PCV 3)</item>
+    </string-array>
+
+    <string-array name="vaccine_month_6">
+        <item>Oral polio vaccine (OPV 1)</item>
+        <item>Hepatitis B (Hep – B3)</item>
+    </string-array>
+
+    <string-array name="vaccine_month_9">
+        <item>Oral polio vaccine (OPV 2)</item>
+        <item>Measles, Mumps, and Rubella (MMR – 1)</item>
+    </string-array>
+
+    <string-array name="vaccine_month_9_12">
+        <item>Typhoid Conjugate Vaccine</item>
+    </string-array>
+
+    <string-array name="vaccine_month_12">
+        <item>Hepatitis A (Hep – A1)</item>
+    </string-array>
+
+    <string-array name="vaccine_month_15">
+        <item>Measles, Mumps, and Rubella (MMR 2)</item>
+        <item>Varicella 1</item>
+        <item>PCV booster</item>
+    </string-array>
+
+    <string-array name="vaccine_month_16_18">
+        <item>Diphtheria, Perussis, and Tetanus (DTwP B1/DTaP B1)</item>
+        <item>Inactivated polio vaccine (IPV B1)</item>
+        <item>Haemophilus influenzae type B (Hib B1)</item>
+    </string-array>
+
+    <string-array name="vaccine_month_18">
+        <item>Hepatitis A (Hep – A2)</item>
+    </string-array>
+
+    <string-array name="vaccine_year_2">
+        <item>Booster of Typhoid Conjugate Vaccine</item>
+    </string-array>
+
+    <string-array name="vaccine_year_4_6">
+        <item>Diphtheria, Perussis, and Tetanus (DTwP B2/DTaP B2)</item>
+        <item>Oral polio vaccine (OPV 3)</item>
+        <item>Varicella 2</item>
+        <item>Measles, Mumps, and Rubella (MMR 3)</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_child">View Child</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Logout</string>
+    <string name="doctor">Doctor</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="reminder">Reminder</string>
+</resources>
